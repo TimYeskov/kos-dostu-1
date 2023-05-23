@@ -20,6 +20,7 @@ const action=(ref,)=>{
         <div className="main">
           <Header/>
            <div className="sections">
+         
               <div className="left">
                 <div>
                 <Link to='/KOS-Dostu'><img src={plus} alt="plus" className="plus"/></Link>
@@ -28,6 +29,7 @@ const action=(ref,)=>{
                 </div>
               </div>
               <div className="right">
+              <div style={{display:"flex",justifyContent:"space-evenly"}}>
                 <div className="container">
                     <img src={plus} alt="plus" className="plus" onClick={()=>action(divRef1)}/>
                  <h1  className="h1">Haqqımızda</h1>
@@ -56,6 +58,9 @@ const action=(ref,)=>{
                       
                     </div>
                 </div>
+                </div>
+                <div style={{display:"flex",justifyContent:"space-between"}}>
+               
                 <div  className="container">
                 <img src={plus} alt="plus" className="plus" onClick={()=>action(divRef4)}/>
                     <h1 className="h1"  >Xəbərlər</h1>
@@ -65,6 +70,8 @@ const action=(ref,)=>{
                        
                     </div>
                 </div>
+                </div>
+               
                 
               </div>
            </div>
