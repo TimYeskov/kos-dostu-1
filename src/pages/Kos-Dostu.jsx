@@ -7,7 +7,7 @@ const KosDostu=()=>{
         <>
         <Header/>
         <div className="kos">
-            <h1>“KOS Dostu” ilə biznesiniz güvəndədir"</h1>
+            <h1>“KOS Dostu” ilə biznesiniz güvəndədir</h1>
             <div className="kos_flex">
                 <h4>“KOS Dostu” PAŞA Bankın kiçik və orta biznes sahibkarlarına öz idxal və ixrac əməliyyatlarını təhlükəsiz yolla həyata keçirmələrini təmin edən SME məhsuludur.</h4>
                 <img src={kosDosu} alt="" />
