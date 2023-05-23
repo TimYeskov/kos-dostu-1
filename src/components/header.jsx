@@ -13,7 +13,7 @@ const Header=()=>{
             </div>
            
             <div className="header__right">
-            <Link to='/Kabinet'> <a>Şəxsi xabinet</a></Link>
+            <Link to='/Kabinet'> <a>Şəxsi kabinet</a></Link>
                 <div>
                   
                     <input class="form-control mr-sm-2" type="search" placeholder="Axtar" aria-label="Search"/>
