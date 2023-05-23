@@ -101,7 +101,7 @@ font-weight: 300;
     }
     .right{
         display: flex;
-         justify-content: space-between;
+         justify-content: space-around;
          padding-left: 20px;
          flex-wrap: wrap;
         
@@ -110,9 +110,10 @@ font-weight: 300;
           margin-bottom: 15px;
           background-color: #f3f2f1;
           width: 300px;
-
+          margin-right: 20px;
           height: 300px;
           overflow: hidden;
+        
         
           
           .h1{
@@ -363,14 +364,24 @@ font-weight: 300;
     background-image: url('./img/bg.svg' );
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+.regImg{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 48px;
+    img{
+        width: 100px;
+    }
 }
 .kabinet{
     text-align: center;
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     margin-top: 60px;
-   
+   display: flex;
 
 form{
    max-width: 500px;
@@ -583,7 +594,7 @@ form{
     outline:none;
     background: #F5F5F5;
 }
-.send-btn, .btn{
+.send-btn{
     width: 60px;
     background: #027b56;
     color: white;
