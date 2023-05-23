@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../App.scss'
 import send from '../img/send.png'
+import chat from '../img/chat.svg'
 const OnlineHelp = () => {
   const [showForm, setShowForm] = useState(false);
 
@@ -15,9 +16,10 @@ const OnlineHelp = () => {
 
   return (
     <>
-    <button className="open-btn" onClick={openChatWindow}>
+    <button className="open-btn" onClick={openChatWindow} style={{justifyContent:"space-evenly"}}>
 
       Online konsultant
+      <img src={chat} style={{width:"20px",height:"20px"}} alt="" />
     </button>
     <div className='chat-popup' id='chat-form-container'>
        <form action="#" className='form-container'>
