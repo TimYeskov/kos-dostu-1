@@ -7,6 +7,7 @@ import malEdd from '../img/malEdd.PNG'
 import dasEdd from '../img/dasEdd.PNG'
 import malNot from '../img/malNot.PNG'
 import qebz from '../img/qebz.PNG'
+import payment from '../img/payment.PNG'
 const Akkreditiv=()=>{
     return (
         <div className="akkreditiv">
@@ -20,6 +21,7 @@ const Akkreditiv=()=>{
             <img src={dasEdd} alt="" />
             <img src={malNot} alt="" />
             <img src={qebz} alt="" />
+            <img src={payment} alt="" />
          </div>
         </div>
     )
